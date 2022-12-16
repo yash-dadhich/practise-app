@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PracticeApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_new_detail">Add new detail</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="countryCode">
+        <item>+91</item>
+        <item>+93</item>
+        <item>+61</item>
+        <item>+86</item>
+        <item>+94</item>
+        <item>+94</item>
+    </string-array>
+</resources>
