@@ -31,7 +31,7 @@ val DIFF_CALLBACK: DiffUtil.ItemCallback<Details> = object : DiffUtil.ItemCallba
         oldUser: Details, newUser: Details
     ): Boolean {
         // User properties may have changed if reloaded from the DB, but ID is fixed
-        return oldUser.email == newUser.email
+        return oldUser.id == newUser.id
     }
 
     override fun areContentsTheSame(oldItem: Details, newItem: Details): Boolean {
